@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    margin-top: 100px;
+    padding-bottom: 12px;
+    width: 300px;
+    top: 20px;
+    margin: 40px auto;
+    border-radius: 5px;
+    border: 2px solid #9999;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #bfc1c2;
+}
+.screen{
+    height: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    border: 2px solid #9999;
+    opacity: 0.9;
+    background-color: #eaedef;
+
+}
+.input-calc{
+    /* background-color:#fff; */
+    text-align: right;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #919191;
+}
+
+.result{
+    text-align: right;
+    height: 60px;
+    margin: 10px ;
+    font-size: 30px;
+
+}
+.calculator{
+    /* border-radius: 8px;
+
+    border: 2px solid #9999; */
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.row-1 #equal{
+    flex: 1;
+}
+.number,
+.operation{
+    width: 20%;
+    height: 40px;
+    margin: 8px;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 16px;
+    background-color: #eaedef;
+}
+.number{
+}
+ #clear{
+    background-color: #ec4353;
+}
+#delete{
+    background-color: #f4111d;
+}
+#percent{
+    background-color: rgb(136, 233, 136);
+}
+#divide{
+    background-color: #20b2aa;
+}
+#mul{
+    background-color: #ffa500;
+}
+#sub{
+    background-color: #f08080;
+}
+#plus{
+    background-color: #7d93e0;
+}
+#equal{
+    border-radius: 25px;
+    background-color: #9477af;
+}
